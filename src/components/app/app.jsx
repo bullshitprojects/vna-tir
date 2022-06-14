@@ -12,7 +12,10 @@ const App = () => (
       </Label>
       <Label htmlFor='years'>Ingresa la cantidad de a&ntilde;os</Label>
       <div className='app-entry__input'>
-        <TextField id='years' />
+        <TextField
+          id='years'
+          placeholder='1'
+        />
         <PrimaryButton text='Calcular' />
       </div>
     </div>
